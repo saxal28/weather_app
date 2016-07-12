@@ -1,7 +1,7 @@
 $(document).ready(function() {
   //gets gps coordinates
   var test = [38.5132085, -89.96652209999999];
-  var weatherapi = "http://api.openweathermap.org/data/2.5/weather?lat="+test[0]+ "&lon="+test[1]+"&appid=d1959f50d3501d2ef0f8746fb709976f";
+  var weatherapi = "http://api.openweathermap.org/data/2.5/weather?lat="+test[0]+"&lon="+test[1]+"&appid=d1959f50d3501d2ef0f8746fb709976f";
   var lat;
   var lon;
   
